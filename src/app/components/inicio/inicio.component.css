@@ -3,42 +3,53 @@
   height: 130px;
   border-radius: 20px;
 }
-.sexo {
+
+.fontWhite {
   font-size: 14px;
-  color:white;
+  color: white;
 }
-.svg{
+
+.svg {
   width: 20px;
-  fill:white;
+  fill: white;
+  cursor: pointer;
 }
+
 .estiloNumero {
   font-size: 32px;
   font-weight: 800;
   margin-top: -30px;
 }
+
 .centimetro {
   font-size: 16px;
   font-weight: 400;
   margin-left: -10px;
 }
+
 .form-range {
-  padding: 0 20px ;
+  padding: 0 20px;
 }
 
-input[type=range]::-webkit-slider-thumb{
+input[type=range]::-webkit-slider-thumb {
   background-color: #ff3366;
 }
-input[type=range]::-moz-range-thumb{
+
+input[type=range]::-moz-range-thumb {
   background-color: #ff3366;
 }
 
 .masmenos {
   width: 25px;
-  fill:white;
+  fill: white;
   cursor: pointer;
   background-color: #ff4c4f5e;
   padding: 4px;
   border-radius: 15px;
   margin-left: 3px;
+}
+
+.sexoDesactivado {
+  background-color: #7d2f2f33;
 }
 
